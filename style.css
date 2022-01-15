@@ -49,3 +49,20 @@ i:hover {
 .underheader p a:hover {
   text-decoration: underline;
 }
+
+.iphone13pro {
+  height: 100vh;
+  text-align: center;
+  background-image: url(./img/iphone\ 13\ pro.PNG);
+  background-size: 100vw;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.iphone13pro a {
+  background-color: rgb(68, 68, 116);
+  margin: 0px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #0066cc;
+}
