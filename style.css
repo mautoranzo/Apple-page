@@ -46,11 +46,12 @@ section a:hover {
 }
 
 section a {
-  background-color: rgb(68, 68, 116);
+  /* background-color: rgb(68, 68, 116); */
   margin: 0px 20px;
-  font-size: 20px;
+  font-size: 21px;
   text-decoration: none;
-  color: #0066cc;
+  color: #06c;
+  font-weight: 400;
 }
 
 .underheader a {
@@ -72,10 +73,17 @@ section a {
   height: 80vh;
   text-align: center;
   background-image: url(./img/iphone\ 13\ pro.PNG);
+  /* background-color: yellow; */
   background-size: 100vw;
   background-position: top center;
   background-repeat: no-repeat;
   margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+section div a {
+  padding-top: 180px;
 }
 
 .iphone13 {
@@ -104,6 +112,10 @@ section .divcolumns {
   background-image: url(./img/air\ pods.PNG);
 }
 
+.airpods a {
+  padding-top: 25em;
+}
+
 .music {
   background-image: url(./img/music.PNG);
 }
@@ -112,6 +124,15 @@ section .divcolumns {
   background-image: url(./img/card.PNG);
 }
 
+.card a {
+  padding-top: 10em;
+}
+
 .tv {
   background-image: url(./img/Tv.PNG);
+}
+
+.tv a {
+  padding-top: 25.5em;
+  color: white;
 }
