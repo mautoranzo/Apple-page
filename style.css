@@ -39,7 +39,9 @@ i:hover {
   background-color: whitesmoke;
   padding: 12px;
 }
-
+.underheader a {
+  text-decoration: none;
+}
 .underheader p a:hover,
 section a:hover {
   text-decoration: underline;
