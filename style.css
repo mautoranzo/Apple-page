@@ -42,12 +42,99 @@ i:hover {
   padding: 12px;
 }
 
-.underheader p a {
-  text-decoration: none;
-  color: #0066cc;
-  font-weight: 500;
+.underheader p a:hover,
+section a:hover {
+  text-decoration: underline;
 }
 
-.underheader p a:hover {
-  text-decoration: underline;
+section a {
+  /* background-color: rgb(68, 68, 116); */
+  margin: 0px 20px;
+  font-size: 21px;
+  text-decoration: none;
+  color: #06c;
+  font-weight: 400;
+}
+
+.underheader a {
+  background-color: whitesmoke;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0px 0px;
+}
+
+.iphone13pro,
+.iphone13,
+.watch,
+.fitness,
+.macbook,
+.airpods,
+.music,
+.card,
+.tv {
+  height: 80vh;
+  text-align: center;
+  background-image: url(./img/iphone\ 13\ pro.PNG);
+  /* background-color: yellow; */
+  background-size: 100vw;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+section div a {
+  padding-top: 180px;
+}
+
+.iphone13 {
+  background-image: url(./img/iphone\ 13.PNG);
+}
+
+.watch {
+  background-image: url(./img/watch.PNG);
+}
+
+section .divcolumns div {
+  background-size: 50vw;
+}
+section .divcolumns {
+  columns: 2;
+}
+.fitness {
+  background-image: url(./img/Fitness.PNG);
+}
+
+.macbook {
+  background-image: url(./img/Macbook\ pro.PNG);
+}
+
+.airpods {
+  background-image: url(./img/air\ pods.PNG);
+}
+
+.airpods a {
+  padding-top: 25em;
+}
+
+.music {
+  background-image: url(./img/music.PNG);
+}
+
+.card {
+  background-image: url(./img/card.PNG);
+}
+
+.card a {
+  padding-top: 10em;
+}
+
+.tv {
+  background-image: url(./img/Tv.PNG);
+}
+
+.tv a {
+  padding-top: 25.5em;
+  color: white;
 }
