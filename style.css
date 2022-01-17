@@ -11,6 +11,8 @@ header {
   background-color: #333333;
   color: #c9c9c9;
   height: 44px;
+  position: fixed;
+  width: 100%;
 }
 
 .item {
