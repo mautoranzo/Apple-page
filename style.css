@@ -166,18 +166,34 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.footer {
-  margin-top: 3em;
-  background-color: blueviolet;
+#footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
 }
 
 .f1 {
   border-bottom: 1px solid #d2d2d7;
-  /* background-color: blueviolet; */
-  text-align: center;
-  padding: 1em;
+  margin: 0 21em;
+  padding-bottom: 0.8em;
 }
 
 .f1 a {
   color: #0071e3;
+}
+
+.f2 {
+  margin: 0 21em;
+  padding: 0.8em 0 2em;
+}
+
+.f2 a {
+  margin-left: 2em;
+  border-left: 1px solid #d2d2d7;
+  padding-left: 10px;
+}
+
+.f2 .region {
+  float: right;
+  border-left: none;
 }
