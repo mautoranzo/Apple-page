@@ -39,7 +39,9 @@ i:hover {
   background-color: whitesmoke;
   padding: 12px;
 }
-
+.underheader a {
+  text-decoration: none;
+}
 .underheader p a:hover,
 section a:hover {
   text-decoration: underline;
@@ -135,4 +137,63 @@ section .divcolumns {
 .tv a {
   padding-top: 25.5em;
   color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  line-height: 2em;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+.nav div ul {
+  margin: 0 50px 1em 0;
+
+  /* background-color: blueviolet; */
+}
+.nav div ul li {
+  font-weight: 400;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #424245;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.f1 {
+  border-bottom: 1px solid #d2d2d7;
+  margin: 0 21em;
+  padding-bottom: 0.8em;
+}
+
+.f1 a {
+  color: #0071e3;
+}
+
+.f2 {
+  margin: 0 21em;
+  padding: 0.8em 0 2em;
+}
+
+.f2 a {
+  margin-left: 2em;
+  border-left: 1px solid #d2d2d7;
+  padding-left: 10px;
+}
+
+.f2 .region {
+  float: right;
+  border-left: none;
 }
