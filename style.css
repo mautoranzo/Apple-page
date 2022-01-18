@@ -35,6 +35,9 @@ i:hover {
   color: white;
 }
 
+.underheader {
+  padding-top: 44px;
+}
 .underheader p {
   color: black;
   text-align: center;
