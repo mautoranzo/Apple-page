@@ -145,7 +145,6 @@ section .divcolumns {
   align-items: baseline;
   line-height: 2em;
   color: #1d1d1f;
-  background-color: #f5f5f7;
   font-weight: 600;
 }
 .nav div ul {
@@ -158,11 +157,27 @@ section .divcolumns {
   list-style: none;
 }
 
-.nav a {
+footer a {
   text-decoration: none;
   color: #424245;
 }
 
-.nav a:hover {
+footer a:hover {
   text-decoration: underline;
+}
+
+.footer {
+  margin-top: 3em;
+  background-color: blueviolet;
+}
+
+.f1 {
+  border-bottom: 1px solid #d2d2d7;
+  /* background-color: blueviolet; */
+  text-align: center;
+  padding: 1em;
+}
+
+.f1 a {
+  color: #0071e3;
 }
