@@ -70,11 +70,11 @@ section a {
 .music,
 .card,
 .tv {
-  height: 80vh;
+  height: 85vh;
   text-align: center;
   background-image: url(./img/iphone\ 13\ pro.PNG);
   /* background-color: yellow; */
-  background-size: 100vw;
+  background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   margin-bottom: 2em;
@@ -94,9 +94,6 @@ section div a {
   background-image: url(./img/watch.PNG);
 }
 
-section .divcolumns div {
-  background-size: 50vw;
-}
 section .divcolumns {
   columns: 2;
 }
