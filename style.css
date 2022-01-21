@@ -4,7 +4,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
-header {
+header .headerb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,4 +53,46 @@ i:hover {
 
 .underheader p a:hover {
   text-decoration: underline;
+}
+
+#menu {
+  display: none;
+}
+
+header .headers {
+  display: none;
+}
+
+.headers label {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 40em) {
+  header .headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #c9c9c9;
+    height: 44px;
+    position: fixed;
+    width: 100%;
+  }
+
+  header .headers label,
+  header .headers a {
+    flex-grow: 1;
+    background-color: green;
+  }
+
+  header .headers a {
+    text-align: center;
+  }
+  header .headers .bag {
+    text-align: right;
+  }
+
+  header .headerb {
+    display: none;
+  }
 }
