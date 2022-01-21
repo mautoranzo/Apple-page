@@ -79,17 +79,21 @@ header .headers {
     width: 100%;
   }
 
-  header .headers label,
-  header .headers a {
+  header .headers div {
     flex-grow: 1;
-    background-color: green;
+    /* background-color: green; */
+    margin: 1em;
   }
 
-  header .headers a {
-    text-align: center;
+  header .headers .menu {
+    text-align: left;
   }
   header .headers .bag {
     text-align: right;
+  }
+
+  header .headers .logo {
+    text-align: center;
   }
 
   header .headerb {
