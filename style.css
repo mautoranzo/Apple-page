@@ -67,7 +67,39 @@ header .headers {
   cursor: pointer;
 }
 
-@media screen and (max-width: 40em) {
+.desp {
+  display: none;
+  /* background-color: lawngreen; */
+  /* margin-top: 5em; */
+  list-style: none;
+  background-color: #333333;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 4em;
+}
+
+body ul li {
+  width: 100vw;
+  background-color: #333333;
+  padding: 1em;
+  border-top: solid rgb(156, 156, 156);
+  border-width: thin;
+}
+
+body ul li a,
+body ul input {
+  font-size: 1.5em;
+}
+
+body ul div {
+  padding: 1em 0;
+}
+
+body ul input {
+  background-color: #494949;
+}
+
+@media screen and (max-width: 55em) {
   header .headers {
     display: flex;
     justify-content: center;
@@ -87,7 +119,14 @@ header .headers {
 
   header .headers .menu {
     text-align: left;
+    font-size: 24px;
   }
+
+  header .headers .menu label {
+    font-size: 1em;
+    /* background-color: lawngreen; */
+  }
+
   header .headers .bag {
     text-align: right;
   }
@@ -98,5 +137,9 @@ header .headers {
 
   header .headerb {
     display: none;
+  }
+
+  #menu:checked + .desp {
+    display: block;
   }
 }
